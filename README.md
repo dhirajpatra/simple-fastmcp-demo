@@ -4,9 +4,11 @@ This is just followed the demo from FastMCP. However adding few tips to run in y
 
 ## Steps
 
-1. install FastMCP
-2. run server by `fastmcp run my_server.py:mcp --transport http --port 8000` 
-3. run client by `python my_client.py`
+* install FastMCP
+* Run `pip install -r requiremetns.txt`
+* Update or create the .env file with ANTHROPIC_API_KEY=your-api-key-goes-here
+* run server by `fastmcp run my_server.py:mcp --transport http --port 8000` or `python my_server.py` in one terminal
+* run client by `python my_client.py` in another terminal
 
 
 If you try to run server by `python my_server.py` it will start in the server starts using stdio (Standard Input/Output). In this case you can't run client by `python my_client.py` because it will not able to find the server.

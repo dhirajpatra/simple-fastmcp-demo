@@ -1,0 +1,7 @@
+fastmcp
+cyclopts>=5.0.0a1
+httpx
+python-dotenv
+mcp 
+anthropic 
+python-dotenv
